@@ -105,7 +105,6 @@ Project_Code/
 │   ├── envs/
 │   │   ├── continuous_envs.py
 │   │   └── discrete_envs.py
-│   ├── main.py
 │   ├── train.py
 │   └── utils.py
 ├── videos/
@@ -146,6 +145,7 @@ Project_Code/
 │       └── MountainCar-v0/
 │           ├── DQN/
 │           └── A2C/
+├── main.py
 └── README.md
 ```
 

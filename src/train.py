@@ -59,7 +59,7 @@ class Model_TrainTest:
             self.epsilon_min      = hyperparams["epsilon_min"]
             self.epsilon_decay    = hyperparams["epsilon_decay"]
             self.memory_capacity  = hyperparams["memory_capacity"]
-            self.map_size = hyperparams["map_size"]
+            self.map_size = hyperparams.get("map_size", 8)
 
         elif alg == "a2c":
             # Add other A2C-specific parameters here if needed
